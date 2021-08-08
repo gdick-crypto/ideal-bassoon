@@ -23,9 +23,9 @@
 .grid-item-footer {
 	grid-column-start: 1;
 	grid-column-end: 12;
-	height: 260px;
+	height: 140px;
 	color: blanchedalmond;
-	background-color: #03A6A6;
+	background-color: black;
 	border-radius: 10px 10px 0px 0px;
 	padding: 5px;
 }
