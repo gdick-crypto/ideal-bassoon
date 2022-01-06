@@ -1,0 +1,73 @@
+h2 {
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px #716024;
+  text-align: center;
+  opacity: 70%;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px #716024;
+  text-align: center;
+}
+
+h4 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.text-banner{
+  text-transform: uppercase;
+  z-index: 10;
+}
+
+.margin-top{
+  margin-top: 375px;
+}
+
+body,h1,h2,h3,h4,h5,h6,p {
+  font-family: Roboto, sans-serif;
+}
+
+button {
+  text-transform: uppercase;
+}
+
+.logo {
+  height: 95px;
+  width: 95px;
+}
+
+.banner {
+  box-shadow: -10px -10px 2px 10px #f0e68c;
+  border-radius: 51% 49% 48% 52% / 77% 78% 22% 23%;
+  width: 507px;
+  height: 571px;
+}
+
+
+/* Sets how images looks in the collage */
+.img-collage{}
+
+.img-collage-top{
+  width: 275px;
+  height: 275px;
+  border: 10px solid #fff;
+  border-radius: 50px;
+  z-index: 10;
+}
+
+.img-collage-middle{
+  width: 430px;
+  height: 430px;
+  border: 10px solid #fff;
+  border-radius: 50px;
+}
+
+.img-collage-bottom{
+  width: 275px;
+  height: 275px;
+  border: 10px solid #fff;
+  border-radius: 50px;
+  z-index: 10;
+}
