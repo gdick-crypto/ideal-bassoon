@@ -4,49 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Premiere Bookkeeping, for all your bookkeeping needs">
+    <meta name="keywords" content="accounting, accountant, bookkeeping, bookkeeper">
+    <meta name="author" content="cloudroast">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Premiere Bookkeeping</title>
-    <link type="text/css" href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet" />
-    <link type="text/css" href="https://www.w3schools.com/lib/w3-colors-highway.css" rel="stylesheet" />
-    <link type="text/css" href="styles.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link type="text/css" href="styles/style.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/ad10e5e2f4.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="w3-container w3-light-grey">
+<body class="">
   <!-- Header starts here -->
-    <header class="w3-container w3-section w3-auto">
-      <div class="w3-row-padding">
-        <div class="w3-button w3-col m6 l2 w3-right w3-padding-16">012 3456 7890</div>
-        <button class="w3-button w3-highway-green w3-col m6 l3 w3-right w3-padding-16">schedule a meeting</button>
+    <header class="">
+      <div class="meeting-us">
+        <div class="contact-number">012 3456 7890</div>
+        <button class="">schedule a meeting</button>
       </div>
-      <div class="w3-row-padding">
-        <nav class="w3-bar w3-border w3-highway-brown">
-            <a href="#" class="w3-highway-green w3-bar-item w3-button w3-mobile w3-padding-16">Home</a>
-            <a href="#" class="w3-bar-item w3-button w3-mobile w3-padding-16">Services</a>
-            <a href="#" class="w3-bar-item w3-button w3-mobile w3-padding-16">Pricing</a>
-            <a href="#" class="w3-bar-item w3-button w3-mobile w3-padding-16">Onboard</a>
-            <a href="#" class="w3-bar-item w3-button w3-mobile w3-padding-16">About</a>
-            <a href="#" class="w3-bar-item w3-button w3-mobile w3-padding-16">Contact</a>
+        <nav class="">
+            <a href="#" class="active">Home</a>
+            <a href="#services" class="">Services</a>
+            <a href="#pricing" class="">Pricing</a>
+            <a href="#about" class="">About</a>
+            <a href="#contact-us" class="">Contact</a>
         </nav>
-      </div>
     </header>
 
     <!-- Main content describing the business, pricing and how to contact -->
-    <main class="w3-section w3-container">
+    <main class="">
 
-        <section class="w3-section w3-display-container w3-auto">
+        <section class="">
 			
-          	<div class="w3-display-right w3-hide-small" style="max-width:822px;">
-            	<img src="img/1.png" alt="A flower pot with some report files" class="w3-image" width="70%">
+          	<div class="">
+            	<img src="assets/images/1_no_bg-min.png" alt="A flower pot with some report files" class="" width="70%">
           	
-          	<div class="w3-display-middle w3-margin-top">
-          		<p class="text-banner w3-xlarge">We do the <ins>numbers</ins> and help you <ins><strong>grow your business</strong></ins></p>
+          	<div class="">
+          		<p class="">We do the <ins>numbers</ins> and help you <ins><strong>grow your business</strong></ins></p>
             	<p>Are you...</p>
-            	<button type="button" name="button" class="w3-button w3-highway-green">an individual</button>
-            	<button type="button" name="button" class="w3-button w3-amber">a business</button>
+            	<button type="button" name="button" class="">an individual</button>
+            	<button type="button" name="button" class="">a business</button>
           	</div>
             </div>
 <!-- 
@@ -56,12 +51,12 @@
 -->
         </section>
 
-        <section class="w3-container w3-row w3-section w3-auto w3-black">
+        <section class="" id="services">
           <h2>who we work with</h2>
 
           <!-- Set the images collage, W3CSS to position correctly and custom CSS for appearance  -->
           <div class="w3-half w3-hide-small">
-            <img src="img/2.png" alt="Collage up" class="w3-image" width="70%">
+            <img src="assets/images/2_no_bg-min.png" alt="Collage up" class="" width="70%">
           </div>
 
           <div class="w3-half w3-display-middle w3-red">
@@ -79,7 +74,7 @@
             <h2>how it works</h2>
 
             <div class="w3-half w3-hide-small">
-              <img src="img/3.png" alt="Collage down" class="w3-image" width="70%">
+              <img src="assets/images/3_no_bg-min.png" alt="Collage down" class="w3-image" width="70%">
             </div>
 
             <div class="w3-half">
@@ -97,7 +92,7 @@
 
         </section>
 
-        <section class="w3-container w3-section w3-auto">
+        <section class="" id="pricing">
             <h2>our pricing</h2>
             <div class="w3-row-padding">
 
@@ -152,10 +147,18 @@
             </div>
         </section>
 
+        <section id="about"></section>
+
+        <section id="contact-us"></section>
     </main>
 
     <!-- Footer starts here -->
-    <footer class="w3-container w3-highway-green w3-section"></footer>
+    <footer class="w3-section w3-container w3-highway-green">
+    	<div class="w3-panel">
+    		<h4>Voice recognition</h4>
+    		<input type="text" x-webkit-speech>
+    	</div>
+    </footer>
 </body>
 
 
