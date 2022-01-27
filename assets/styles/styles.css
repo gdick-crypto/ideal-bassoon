@@ -1,0 +1,38 @@
+/*
+*   Body Section
+*/
+
+body {
+  font-family: "Comfortaa";
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Louis George Cafe";
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  text-shadow: 1px 1px 3px #716024;
+  opacity: 70%;
+}
+
+h3 {
+  text-shadow: 1px 1px 3px #716024;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+button {
+  text-transform: uppercase;
+}
+
+/*
+*   Jumbotron Section
+*/
+
+#jumbotron {
+  background: url("assets/images/1_no_bg-min.png") no-repeat left center;
+}
